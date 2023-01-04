@@ -4,7 +4,8 @@ import Home from './Pages/Home'
 
 function App() {
 
-  return (
+	return (
+		
 		<Router>
 			<Routes>
 				<Route path="/" element={<Home />} />
@@ -14,6 +15,8 @@ function App() {
 				/>
 			</Routes>
 		</Router>
+
+	
 	);
 }
 
