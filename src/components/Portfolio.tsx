@@ -8,18 +8,21 @@ import listtudo from "../assets/listtudo.png";
 export default function Portfolio() {
 	return (
 		<>
-			<div className="text-text flex  flex-wrap items-start gap-6 px-6 bg-bgDark w-screen h-full my-7">
-				<div className="items-center flex justify-center flex-col flex-1  bg-[#222] rounded-lg p-4 ">
-					<div className="w-60">
+			<h1 className="text-text text-xl  lg:text-5xl font-bold  text-center">
+				Charlie's Portfolio
+			</h1>
+			<div className="text-text flex flex-wrap items-start gap-6 px-6 bg-bgDark lg:w-full  w-full mx-8 h-auto my-7 justify-center ">
+				<div className="items-center flex justify-center flex-col flex-1 bg-[#222] rounded-lg p-4 ">
+					<div className="lg:w-60 mx-10 md:mx-0">
 						<img src={repositorio} alt="Miniatura do Site Repositório LGBT" />
 					</div>
 					<a
 						href={"https://repositoriolgbt-react.vercel.app/"}
-						className="text-3xl hover:underline text-action py-4"
+						className="lg:text-3xl hover:underline text-action py-4"
 					>
 						Repositório LGBT
 					</a>
-					<p className="text-2xl">
+					<p className="lg:text-2xl px-9 text-xs">
 						Site que filtra textos acadêmicos com temáticas LGBT. Feito em React
 						e Javascript. O Design e todo o UX Design do site foi totalmente
 						pensado e desenvolvido por mim utilizando o{" "}
@@ -41,16 +44,16 @@ export default function Portfolio() {
 					</p>
 				</div>
 				<div className="items-center flex justify-center flex-col flex-1 bg-[#222] rounded-lg p-4">
-					<div className="w-60">
+					<div className="w-60  mx-10 md:mx-0">
 						<img src={glpi} alt="Miniatura do Site GLPI - UFAL" />
 					</div>
 					<a
 						href={"https://glpi-react-components.vercel.app/"}
-						className="text-3xl hover:underline text-action py-4"
+						className="lg:text-3xl hover:underline text-action py-4"
 					>
 						Site GLPI - UFAL
 					</a>
-					<p className="text-2xl">
+					<p className="lg:text-2xl px-9 text-xs">
 						(Em desenvolvimento) Site criado para gerenciar chamados internos da
 						Universidade Federal de Alagoas (UFAL). O site foi desenvolvido em
 						conjunto com a equipe de desenvolvimento da Gerência de Tecnologia
@@ -80,10 +83,13 @@ export default function Portfolio() {
 							alt="Miniatura do Web App do Restaurante Universitário - UFAL"
 						/>
 					</div>
-					<a href={"#"} className="text-3xl hover:underline text-action py-4">
+					<a
+						href={"#"}
+						className="lg:text-3xl hover:underline text-action py-4"
+					>
 						Web App do Restaurante Universitário - UFAL
 					</a>
-					<p className="text-2xl">
+					<p className="lg:text-2xl px-9 text-xs">
 						(Em desenvolvimento) Site criado para gerenciar pagamentos do
 						Restaurante Universitário da Universidade Federal de Alagoas (UFAL).
 						O site foi desenvolvido em conjunto com a equipe de desenvolvimento
@@ -113,11 +119,11 @@ export default function Portfolio() {
 					</div>
 					<a
 						href={"https://glpi-react-components.vercel.app/"}
-						className="text-3xl hover:underline text-action py-4"
+						className="lg:text-3xl hover:underline text-action py-4"
 					>
 						List Tudo
 					</a>
-					<p className="text-2xl">
+					<p className="lg:text-2xl px-9 text-xs">
 						(Em desenvolvimento) É um web app clone do{" "}
 						<a
 							href="https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=pt_BR&gl=US"
