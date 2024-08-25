@@ -1,15 +1,14 @@
-import React from "react";
 
-import repositorio from "../assets/repositorio-lgbt.png";
-import glpi from "../assets/glpi.png";
-import ru from "../assets/ru.png";
-import listtudo from "../assets/listtudo.png";
+import glpi from "../assets/glpi.png"
+import listtudo from "../assets/listtudo.png"
+import repositorio from "../assets/repositorio-lgbt.png"
+import ru from "../assets/ru.png"
 
 export default function Portfolio() {
 	return (
 		<>
 			<h1 className="text-text text-xl  lg:text-5xl font-bold  text-center">
-				Charlie's Portfolio
+				Charlie's Portfolio (em desenvolvimento)
 			</h1>
 			<div className="text-text flex flex-wrap items-start gap-6 px-6 bg-bgDark lg:w-full  w-full mx-8 h-auto my-7 justify-center ">
 				<div className="items-center flex justify-center flex-col flex-1 bg-[#222] rounded-lg p-4 ">
@@ -35,7 +34,7 @@ export default function Portfolio() {
 						e outras ferramentas de UX Design. Aqui você encontra o link do
 						projeto no{" "}
 						<a
-							href="https://www.figma.com/file/UO0M66lZQUx7JJSH1YgjBD/List-TuDo?node-id=0%3A1"
+							href="https://github.com/CharlieBellow/repositoriolgbt-react"
 							className=" text-action hover:underline"
 						>
 							GitHub
@@ -55,11 +54,11 @@ export default function Portfolio() {
 					</a>
 					<p className="lg:text-2xl px-9 text-xs">
 						(Em desenvolvimento) Site criado para gerenciar chamados internos da
-						Universidade Federal de Alagoas (UFAL). O site foi desenvolvido em
+						Universidade Federal de Alagoas (UFAL). Ele está sendo desenvolvido em
 						conjunto com a equipe de desenvolvimento da Gerência de Tecnologia
 						da Informação (GTI) da qual faço parte. Utilizamos React,
 						Typescript, Radix, Chakra, Tailwindcss, yup, Formik, axios, ente
-						outras tecnologias. A parte gráfica foi desenvolvida por mim no{" "}
+						outras tecnologias. A parte gráfica foi desenvolvida em grande parte por mim no{" "}
 						<a
 							href="https://www.figma.com/file/YvgimWmPZIPsgqAD7JElCA/GLPI---UFAL-Arapiraca?node-id=4%3A3849&t=NhUJxsU1qIeaGot5-1"
 							className=" text-action hover:underline py-4"
@@ -83,20 +82,19 @@ export default function Portfolio() {
 							alt="Miniatura do Web App do Restaurante Universitário - UFAL"
 						/>
 					</div>
-					<a
-						href={"#"}
-						className="lg:text-3xl hover:underline text-action py-4"
+					<p
+						
+						className="lg:text-3xl text-action py-4"
 					>
 						Web App do Restaurante Universitário - UFAL
-					</a>
+					</p>
 					<p className="lg:text-2xl px-9 text-xs">
-						(Em desenvolvimento) Site criado para gerenciar pagamentos do
+						(Em desenvolvimento) Site pensado para gerenciar os pagamentos do
 						Restaurante Universitário da Universidade Federal de Alagoas (UFAL).
-						O site foi desenvolvido em conjunto com a equipe de desenvolvimento
+						Será desenvolvido em conjunto com a equipe de desenvolvimento
 						da Gerência de Tecnologia da Informação (GTI) da qual faço parte.
-						Utilizamos React, Typescript, Radix, Chakra, Tailwindcss, yup,
-						Formik, axios, ente outras tecnologias. A parte gráfica foi
-						desenvolvida por mim no{" "}
+						Utilizaremos React, Next, Typescript, Radix, Chakra, Tailwindcss, ente outras tecnologias. A parte gráfica já foi
+						desenvolvida em grande parte por mim no{" "}
 						<a
 							href="https://www.figma.com/file/H2omDqMXOrt4Cyi5ZnocNP/RU---UFAL-Arapiraca?node-id=4%3A3848&t=mOJDFmVjJF1eNZun-0"
 							className=" text-action hover:underline"
@@ -104,7 +102,7 @@ export default function Portfolio() {
 							Figma
 						</a>
 						. E este é o link do projeto no{" "}
-						<a href="#" className=" text-action hover:underline">
+						<a href="https://github.com/CharlieBellow/RU-UFAL" className=" text-action hover:underline">
 							GitHub
 						</a>
 						.
@@ -117,12 +115,12 @@ export default function Portfolio() {
 							alt="Miniatura do Web App do Restaurante Universitário - UFAL"
 						/>
 					</div>
-					<a
-						href={"https://glpi-react-components.vercel.app/"}
-						className="lg:text-3xl hover:underline text-action py-4"
+					<p
+					
+						className="lg:text-3xl text-action py-4"
 					>
 						List Tudo
-					</a>
+					</p>
 					<p className="lg:text-2xl px-9 text-xs">
 						(Em desenvolvimento) É um web app clone do{" "}
 						<a
@@ -155,7 +153,7 @@ export default function Portfolio() {
 						</a>{" "}
 						e no{" "}
 						<a
-							href="https://www.figma.com/file/UO0M66lZQUx7JJSH1YgjBD/List-TuDo?node-id=0%3A1"
+							href="https://github.com/CharlieBellow/list-tudo-react"
 							className=" text-action hover:underline"
 						>
 							GitHub
