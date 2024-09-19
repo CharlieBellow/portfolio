@@ -1,11 +1,15 @@
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import Portfolio from "../components/Portfolio"
+
 export default function Home() {
   return (
   
-      <div className=' bg-gray-light flex h-full relative flex-col w-full'>
-        {/* <Header/>
+      <div className=' bg-bgDark flex h-full relative flex-col w-full'>
+        <Header/>
 				<Portfolio />
-				<Footer /> */}
-				<aside className='fixed bg-blue-light flex w-2fr'>
+				<Footer />
+				{/* <aside className='fixed bg-blue-light flex w-2fr'>
 				
 					
 					Sidebar
@@ -36,7 +40,7 @@ export default function Home() {
 					<br/>
 
 					</div>
-				</main>
+				</main> */}
       </div>
   )
 }
