@@ -1,16 +1,42 @@
-
-import Portfolio from '../components/Portfolio'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-
 export default function Home() {
   return (
-		<>
-			<main className="flex flex-col items-center text-center justify-center bg-bgDark gap-2 w-fit h-full py-6 ">
-				<Header/>
+  
+      <div className=' bg-gray-light flex h-full relative flex-col w-full'>
+        {/* <Header/>
 				<Portfolio />
-				<Footer />
-			</main>
-		</>
-	);
+				<Footer /> */}
+				<aside className='fixed bg-blue-light flex w-2fr'>
+				
+					
+					Sidebar
+        <div className='  h-screen w-2 flex'>
+          <div className='border-blue-dark border-2 ml-2' />
+        </div>
+					
+					</aside>
+				<main className='h-full ml-3 flex overflow-y-auto'>
+					<div>Content
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+
+					</div>
+				</main>
+      </div>
+  )
 }
