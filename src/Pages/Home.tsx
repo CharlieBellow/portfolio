@@ -5,21 +5,21 @@ import Portfolio from "../components/Portfolio"
 export default function Home() {
   return (
   
-      <div className=' bg-bgDark flex h-full relative flex-col w-full'>
-        <Header/>
+      <div className=' bg-gray-light h-full flex flex-row relative'>
+        {/* <Header/>
 				<Portfolio />
-				<Footer />
-				{/* <aside className='fixed bg-blue-light flex w-2fr'>
+				<Footer /> */}
+				<aside className='   bg-blue-light w-60 border-r-4 border-blue-dark '>
 				
+				<div className="fixed">
 					
 					Sidebar
-        <div className='  h-screen w-2 flex'>
-          <div className='border-blue-dark border-2 ml-2' />
-        </div>
+					</div>
+       
 					
 					</aside>
-				<main className='h-full ml-3 flex overflow-y-auto'>
-					<div>Content
+				<main className=' w-60 '>
+					<div className="overflow-y-clip">Content
 					<br/>
 					<br/>
 					<br/>
@@ -35,12 +35,49 @@ export default function Home() {
 					<br/>
 					<br/>
 					<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br/>	<br/>
+					<br/>
+					<br/>
+					<br />
+					<br />
+					<br/>
+					<br/>
+					<br />
+					<br />
+					<br/>
+					<br/>
+					<br />
+					<br />
+					<br/>
+					<br/>
+					<br />
+					<br />
 					<br/>
 					<br/>
 					<br/>
 
 					</div>
-				</main> */}
+				</main>
       </div>
   )
 }
