@@ -5,25 +5,44 @@ import Portfolio from "../components/Portfolio"
 export default function Home() {
   return (
   
-      <div className=' bg-gray-light h-full flex flex-row relative'>
+      <div className=' max-h-screen bg-gray-light h-full flex overflow-hidden'>
         {/* <Header/>
 				<Portfolio />
 				<Footer /> */}
-				<aside className='   bg-blue-light w-60 border-r-4 border-blue-dark '>
+				<nav className=' h-screen bg-blue-light lg:w-full border-r-4 border-blue-dark overflow-hidden'>
 				
-				<div className="fixed">
-					
+				<div className="max-h-screen">
+				<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br/>
+					<br />
+					<div className="fixed">
+
 					Sidebar
+					</div>
 					</div>
        
 					
-					</aside>
-				<main className=' w-60 '>
-					<div className="overflow-y-clip">Content
+					</nav>
+			<main className=' w-full overflow-y-scroll'>
+					<div className="">Content
 					<br/>
 					<br/>
+					<br />
+					<br/>
+					<br />
 					<br/>
 					<br/>
+					<br />
+					<br/>
+					<br/>
+					<br />
+					<br/>
+					<br/>
+					<br />
 					<br/>
 					<br/>
 					<br/>
