@@ -2,6 +2,9 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Portfolio from "../components/Portfolio"
 
+import charlie from "../assets/charlie.png"
+import Skills from "../components/Skills"
+
 export default function Home() {
   return (
   
@@ -9,7 +12,7 @@ export default function Home() {
         {/* <Header/>
 				<Portfolio />
 				<Footer /> */}
-				<nav className=' h-screen bg-blue-light lg:w-full border-r-4 border-blue-dark overflow-hidden'>
+				<nav className=' h-screen bg-blue-light lg:w-full border-r-4 border-blue-dark '>
 				
 				<div className="max-h-screen">
 				<br/>
@@ -27,73 +30,11 @@ export default function Home() {
        
 					
 					</nav>
-			<main className=' w-full overflow-y-scroll'>
+			<main className=' w-full overflow-y-scroll  '>
 					<div className="">Content
 					<br/>
 					<br/>
-					<br />
-					<br/>
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br/>	<br/>
-					<br/>
-					<br/>
-					<br />
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br />
-					<br/>
-					<br/>
-					<br />
-					<br />
-					<br/>
-					<br/>
-					<br/>
+					<Skills/>
 
 					</div>
 				</main>
