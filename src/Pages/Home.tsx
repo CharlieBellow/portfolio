@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import Portfolio from "../components/Portfolio"
 
-import charlie from "../assets/charlie.png"
+import charlie from "../assets/charlie.jpg"
 import Skills from "../components/Skills"
 
 export default function Home() {
@@ -32,10 +32,7 @@ export default function Home() {
 					</nav>
 			<main className=' w-full overflow-y-scroll  '>
 					<div className="">Content
-					<br/>
-					<br/>
 					<Skills/>
-
 					</div>
 				</main>
       </div>
