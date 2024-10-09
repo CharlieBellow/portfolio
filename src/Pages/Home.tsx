@@ -31,9 +31,9 @@ export default function Home() {
 					
 					</nav>
 			<main className=' w-full overflow-y-scroll '>
-					<div className="">Content
+				
 					<Skills/>
-					</div>
+				
 				</main>
       </div>
   )
