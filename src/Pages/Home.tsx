@@ -1,30 +1,25 @@
-import Footer from "../components/Footer"
-import Header from "../components/Header"
-import Portfolio from "../components/Portfolio"
 
-import charlie from "../assets/charlie.jpg"
 import Skills from "../components/Skills"
 
 export default function Home() {
   return (
   
       <div className=' max-h-screen bg-gray-light h-full flex overflow-hidden'>
-        {/* <Header/>
-				<Portfolio />
-				<Footer /> */}
-				<nav className=' h-screen bg-blue-light lg:w-full border-r-4 border-blue-dark '>
+				<nav className=' h-screen bg-blue-light w-12 lg:w-full border-r-4 border-blue-dark '>
 				
 				<div className="max-h-screen">
-				<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br/>
-					<br />
 					<div className="fixed">
-
-					Sidebar
+				<div>Charlie Bellow</div>
+					<div>Web Developer</div>
+					<p>A combinação da minha paixão por código, UI/UX Design e psicologia me posiciona em um lugar único no mercado de desenvolvimento web.</p>
+						<button>
+						Vamos trabalhar juntos?!
+						</button>
+						<span>
+						Veja meu repositório no GitHub e meu perfil no Linkedin
+						Baixe meu currículo (PDF 59,9kb)
+						</span>
+	
 					</div>
 					</div>
        
