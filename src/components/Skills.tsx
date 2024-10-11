@@ -1,5 +1,5 @@
 import AboutMe from './AboutMe'
-import charlie from '../assets/charlie.jpg'
+import charlie from '../assets/charliee.png'
 import Projects from './Projects'
 import SoftSkills from './SoftSkills'
 import HardSkills from './HardSkills'
