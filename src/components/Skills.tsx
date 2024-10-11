@@ -7,7 +7,7 @@ import Tecnology from './Tecnology'
 
 export default function Skills() {
   return (
-    <div className='w-auto flex justify-center flex-col gap-8'>
+    <div className='w-auto flex justify-center flex-col gap-8 overflow-y-clip'>
       <img
         src={charlie}
         alt='Charlie Bellow perfil'
