@@ -30,7 +30,7 @@ export default function Sidebar() {
           </span>
           <span>
 
-          Baixe meu <a target="_blank" href="https://docs.google.com/document/d/1BliDXffd2jeCiTYMV_bjgqya3uE3fOq33Igy1NTXw_o/edit?usp=sharing">Currículo</a> (PDF 59,9kb).
+          Baixe meu <a target="_blank" href="https://docs.google.com/document/d/1BliDXffd2jeCiTYMV_bjgqya3uE3fOq33Igy1NTXw_o/edit?usp=sharing" className='text-action'>Currículo</a> (PDF 59,9kb).
           </span>
           </div>
         </div>
