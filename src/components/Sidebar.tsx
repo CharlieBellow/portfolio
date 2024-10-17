@@ -1,18 +1,30 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true)
+  useEffect(() => {
+    function display() {
+      if (screen.width <= 768) {
+        setIsOpen(false)
+    
+        
+  
+      }
+    }
+    display()
+  }, [])
+  
   return (
     <aside
-      className={`h-screen bg-blue-light  border-r-4 border-blue-dark overflow-hidden w-1/2 ${
-        isOpen ? 'lg:w-full' : 'w-12'
-      }`}
+      className={`h-screen bg-blue-light  border-r-4 border-blue-dark overflow-hidden md:w-1/2 w-full ${
+        isOpen ? 'md:w-full absolute md:relative w-full ' : 'w-12 md:w-12 lg:w-12'
+      } `}
     >
-      <div className={`fixed p-6 h-screen flex justify-center gap-4 ${isOpen ? "w-1/2" : "pl-3"}`}>
+      <div className={`fixed p-6 h-screen flex justify-center gap-4  ${isOpen ? "md:w-1/2 w-full" : "pl-3"}`}>
       
 
-        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col gap-20 text-justify text-lg justify-center`}>
+        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col gap-20  text-justify text-lg justify-center  `}>
           <div>
           <div className='font-extrabold text-4xl text-blue-dark'>Charlie Bellow</div>
           <div className='text-blue-dark/50 font-extrabold text-5xl'>Web Developer</div>
@@ -37,6 +49,7 @@ export default function Sidebar() {
         <button
           onClick={() => {
             setIsOpen(!isOpen)
+     
           }}
           
         >
