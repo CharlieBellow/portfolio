@@ -54,12 +54,12 @@ export default function Sidebar() {
           
         >
           {isOpen ? (
-            <div>
+            <div className='lg:hidden'>
               <FaChevronLeft size={23} />
             </div>
           ) : (
             <div>
-              <FaChevronRight size={23} />
+              <FaChevronRight className='lg:hidden' size={23} />
             </div>
           )}
         </button>
