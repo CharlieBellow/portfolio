@@ -39,14 +39,14 @@ export default function Glpi() {
             Typescript, Radix, Chakra, Tailwindcss, yup, Formik, axios, ente
             outras tecnologias. A parte gráfica foi desenvolvida em grande parte
             por mim no{' '}
-            <a
+            <a target="_blank"
               href='https://www.figma.com/file/YvgimWmPZIPsgqAD7JElCA/GLPI---UFAL-Arapiraca?node-id=4%3A3849&t=NhUJxsU1qIeaGot5-1'
               className=' text-action hover:underline py-4'
             >
               Figma
             </a>
             . E este é o link do projeto no{' '}
-            <a
+            <a target="_blank"
               href='https://github.com/CharlieBellow/GLPI-react-components'
               className=' text-action hover:underline'
             >

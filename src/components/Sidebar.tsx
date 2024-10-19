@@ -34,7 +34,7 @@ export default function Sidebar() {
             A combinação da minha paixão por código, UI/UX Design e psicologia
             me posiciona em um lugar único no mercado de desenvolvimento web.
           </p>
-          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-base p-2 border-blue-dark border-2'>Vamos trabalhar juntos?</button>
+          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-base p-2 border-blue-dark border-2'><a target="_blank" href="http://wa.me/+5582996008552">Vamos trabalhar juntos?</a></button>
           <div className='text-xs font-medium text-white flex flex-col gap-2'>
 
           <span>

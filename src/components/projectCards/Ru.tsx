@@ -38,14 +38,15 @@ export default function Ru() {
               qual faço parte. Utilizaremos React, Next, Typescript, Radix,
               Chakra, Tailwindcss, ente outras tecnologias. A parte gráfica já
               foi desenvolvida em grande parte por mim no{' '}
-              <a
+              <a target='_blank'
                 href='https://www.figma.com/file/H2omDqMXOrt4Cyi5ZnocNP/RU---UFAL-Arapiraca?node-id=4%3A3848&t=mOJDFmVjJF1eNZun-0'
                 className=' text-action hover:underline'
               >
                 Figma
               </a>
               . E este é o link do projeto no{' '}
-              <a
+            <a target="_blank"
+            
                 href='https://github.com/CharlieBellow/RU-UFAL'
                 className=' text-action hover:underline'
               >
