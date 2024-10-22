@@ -27,16 +27,16 @@ export default function Sidebar() {
 
         <div className={`${isOpen ? 'flex' : 'hidden'} flex-col gap-4 md:gap-5 lg:gap-20  text-justify text-lg justify-center 2xl:p-10 `}>
           <div>
-          <div className='font-extrabold md:text-3xl text-blue-dark 2xl:text-8xl'>Charlie Bellow</div>
-          <div className='text-blue-dark/50 font-extrabold text-2xl  md:text-4xl 2xl:text-9xl'>Web Developer</div>
+          <div className='font-extrabold md:text-3xl text-blue-dark 2xl:text-6xl'>Charlie Bellow</div>
+          <div className='text-blue-dark/50 font-extrabold text-2xl  md:text-4xl 2xl:text-7xl'>Web Developer</div>
 
           </div>
-          <p className='font-bold text-sm 2xl:text-6xl'>
+          <p className='font-bold text-sm 2xl:text-2xl'>
             A combinação da minha paixão por código, UI/UX Design e psicologia
             me posiciona em um lugar único no mercado de desenvolvimento web.
           </p>
-          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-sm p-2 2xl:text-6xl 2xl:p-10 border-blue-dark border-2'><a target="_blank" href="http://wa.me/+5582996008552">Vamos trabalhar juntos?</a></button>
-          <div className='text-xs font-medium text-white flex flex-col gap-2 2xl:text-5xl'>
+          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-sm p-2 2xl:text-2xl 2xl:p-5 border-blue-dark border-2'><a target="_blank" href="http://wa.me/+5582996008552">Vamos trabalhar juntos?</a></button>
+          <div className='text-xs font-medium text-white flex flex-col gap-2 2xl:text-lg'>
 
           <span>
             Veja meu repositório no GitHub e meu perfil no <a target="_blank" href="https://www.linkedin.com/in/charlie-bellow-de-oliveira-pimentel-silva/" className='text-action'>Linkedin</a>.
