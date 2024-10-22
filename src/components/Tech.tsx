@@ -5,8 +5,13 @@ type TechProps = {
 }
 export default function Tech({ icon, title }: TechProps) {
   return (
-    <span className='flex justify-between'>
-      {title} {icon}
+    <span className='flex justify-between text-sm items-center'>
+     <div>
+      {title} 
+      </div> 
+      <div>
+        {icon}
+        </div>
     </span>
   )
 }

@@ -10,7 +10,7 @@ export default function Tecnology() {
   return (
     <div className='flex flex-col gap-8'>
     <Title title='Principais Tecnologias' />
-      <div className='m-4 flex flex-col w-1/2 gap-8 text-xl 2xl:text-3xl px-3'>
+      <div className='md:m-4 flex flex-col w-full md:w-1/2 gap-8 text-xl 2xl:text-3xl px-3'>
         <Tech title="React"  icon={<><FaReact size={26} /></>}/>
         <Tech title="Typescript" icon={<><SiTypescript/></>}/> 
         <Tech title="Next" icon={<><RiNextjsFill/></>}  />

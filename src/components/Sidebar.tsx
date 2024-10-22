@@ -4,7 +4,6 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true)
 
-  const workTogether = () => {console.log("work")}
   useEffect(() => {
     function display() {
       if (screen.width <= 768) {
@@ -26,18 +25,18 @@ export default function Sidebar() {
       <div className={`fixed p-6 h-screen flex justify-center gap-4  ${isOpen ? "md:w-1/2 w-full" : "pl-3"}`}>
       
 
-        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col gap-20  text-justify text-lg justify-center  `}>
+        <div className={`${isOpen ? 'flex' : 'hidden'} flex-col gap-4 md:gap-5 lg:gap-20  text-justify text-lg justify-center 2xl:p-10 `}>
           <div>
-          <div className='font-extrabold text-4xl text-blue-dark'>Charlie Bellow</div>
-          <div className='text-blue-dark/50 font-extrabold text-5xl'>Web Developer</div>
+          <div className='font-extrabold md:text-3xl text-blue-dark 2xl:text-8xl'>Charlie Bellow</div>
+          <div className='text-blue-dark/50 font-extrabold text-2xl  md:text-4xl 2xl:text-9xl'>Web Developer</div>
 
           </div>
-          <p className='font-bold'>
+          <p className='font-bold text-sm 2xl:text-6xl'>
             A combinação da minha paixão por código, UI/UX Design e psicologia
             me posiciona em um lugar único no mercado de desenvolvimento web.
           </p>
-          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-base p-2 border-blue-dark border-2'><a target="_blank" href="http://wa.me/+5582996008552">Vamos trabalhar juntos?</a></button>
-          <div className='text-xs font-medium text-white flex flex-col gap-2'>
+          <button className='w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-sm p-2 2xl:text-6xl 2xl:p-10 border-blue-dark border-2'><a target="_blank" href="http://wa.me/+5582996008552">Vamos trabalhar juntos?</a></button>
+          <div className='text-xs font-medium text-white flex flex-col gap-2 2xl:text-5xl'>
 
           <span>
             Veja meu repositório no GitHub e meu perfil no <a target="_blank" href="https://www.linkedin.com/in/charlie-bellow-de-oliveira-pimentel-silva/" className='text-action'>Linkedin</a>.
