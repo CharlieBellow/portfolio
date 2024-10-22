@@ -30,14 +30,14 @@ export default function ListTudo() {
           description={
             <>
             (Em desenvolvimento) É um web app clone do{' '}
-            <a
+            <a target="_blank"
               href='https://play.google.com/store/apps/details?id=com.microsoft.todos&hl=pt_BR&gl=US'
               className=' text-action hover:underline'
             >
               Microsoft ToDo
             </a>{' '}
             integrado com a API do{' '}
-            <a
+            <a target="_blank"
               href='https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=pt_BR&gl=US'
               className='text-action hover:underline'
             >
@@ -45,21 +45,21 @@ export default function ListTudo() {
             </a>
             . Foi idealizado por mim e todo o processo de desenvolvimento está
             sendo compartilhado nessa playlist no meu canal do{' '}
-            <a
+            <a target="_blank"
               href='https://www.youtube.com/playlist?list=PL3qbpl4OpgMA5Bpj_FpahF6LtSTlIjbsX'
               className=' text-action hover:underline'
             >
               Youtube
             </a>
             . O design também pode ser encontrado observado no{' '}
-            <a
+            <a target="_blank"
               href='https://www.figma.com/file/UO0M66lZQUx7JJSH1YgjBD/List-TuDo?node-id=0%3A1'
               className=' text-action hover:underline'
             >
               Figma
             </a>{' '}
             e no{' '}
-            <a
+            <a target="_blank"
               href='https://github.com/CharlieBellow/list-tudo-react'
               className=' text-action hover:underline'
             >

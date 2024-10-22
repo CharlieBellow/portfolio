@@ -31,7 +31,8 @@ export default function Repositorio() {
             e Javascript. O Design e todo o UX Design do site foi totalmente
             pensado e desenvolvido por mim utilizando o{' '}
             
-            <a
+            <a target="_blank"
+          
               href='https://www.figma.com/file/tPLEhLD7w4pjaiUAEJPrBP/Forum-edit---Design-System?node-id=14%3A53&t=NhUJxsU1qIeaGot5-1'
               className=' text-action hover:underline'
             >
@@ -39,7 +40,8 @@ export default function Repositorio() {
             </a>{' '}
             e outras ferramentas de UX Design. Aqui você encontra o link do
             projeto no{' '}
-            <a
+            <a target="_blank"
+            
               href='https://github.com/CharlieBellow/repositoriolgbt-react'
               className=' text-action hover:underline'
             >
