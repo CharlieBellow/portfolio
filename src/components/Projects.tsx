@@ -3,6 +3,7 @@ import Glpi from './projectCards/Glpi'
 import ListTudo from './projectCards/ListTudo'
 import Repositorio from './projectCards/Repositorio'
 import Ru from './projectCards/Ru'
+import UX from './projectCards/UX'
 
 export default function Projects() {
   return (
@@ -12,7 +13,8 @@ export default function Projects() {
         <Glpi />
         <Repositorio />
         <Ru />
-        <ListTudo/>
+        {/* <ListTudo/> */}
+        <UX/>
       </div>
     </div>
   )

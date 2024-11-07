@@ -6,10 +6,9 @@ export default function Sidebar() {
 
   useEffect(() => {
     function display() {
+      if (screen.width >= 769) { setIsOpen(true) }
       if (screen.width <= 768) {
         setIsOpen(false)
-    
-        
   
       }
     }
