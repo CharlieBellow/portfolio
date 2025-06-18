@@ -21,5 +21,5 @@ export default function Skills() {
         <Tecnology />
       </div>
     </div>
-  );
+  )
 }

@@ -11,7 +11,7 @@ export default function AboutMe() {
         
       </Description>
       
-    <Description description='Charlie Bellow foca no planejamento e desenvolvimento de softwares com resposividade e acessibilidade para web. E busca atingir esses objetivos consolidando seus conhecimentos em graduação em Sistemas da Informação, cursos complementares de UI/UX Design, entre outros. Além disso, possui um bagagem de 3 anos de experiência na área de TI. Também é mestre em Psicologia e Pós-Graduado em Diversidade, Acessibilidade e Inclusão.' colorText="blue-dark">
+    <Description description='Charlie Bellow foca no planejamento e desenvolvimento de softwares com resposividade e acessibilidade para web. E busca atingir esses objetivos consolidando seus conhecimentos em graduação em Sistemas da Informação, formação em UI/UX Design, entre outros. Além disso, possui um bagagem de 4 anos de experiência com desenvolvimento de Sites web. Também é mestre em Psicologia e Pós-Graduado em Diversidade, Acessibilidade e Inclusão.' colorText="blue-dark">
         
     </Description>
     </>

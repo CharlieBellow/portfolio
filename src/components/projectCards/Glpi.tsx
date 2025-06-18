@@ -59,11 +59,11 @@ export default function Glpi() {
           image={glpi}
           icons={
             <>
-              <FaReact size={26} />
-              <LuFigma size={26} />
-              <RiTailwindCssFill size={26} />
-              <SiTypescript size={26} />
-              <RiNextjsFill size={26} />
+              <FaReact size={18} />
+              <LuFigma size={18} />
+              <RiTailwindCssFill size={18} />
+              <SiTypescript size={18} />
+              <RiNextjsFill size={18} />
             </>
           }
           altText={'Projeto do GLPI'}

@@ -10,26 +10,35 @@
 - consertar os link dos projetos
 - fazer animação do hover
 
+## Revisão:
+- trocar a fonte do lado direito, mater a que já está só nos títulos
+- instalar comitlint e husky
+- tirar o projeto do restaurante universitário
+- hospedar o site de psico e colocar no portifolio
+- fazer o projeto do IBGE pessoas trans
+- fazer o projeto de vendas de açaí
 
-# Pages
 
-* Contato
+
+
+## Pages
+
+# Contato
 - criar um email profissional e encaminhar os emails para o meu pessoal
 
- * Sobre Mim:
+ # Sobre Mim:
 
 me apresentar, falar o qeu faço o que já fiz 
 
-Meu maior diferencial é a habilidade de comunicação. Com isso eu consigo me comunicar com o cliente, utilizando uma liguagem acessível de modo a prospectar regras de negócio claras e alinhadas com a expectativa do cliente garantindo assim a entrega do que ele exatamente quer. E se ele mesmo não souber exatamente o que quer, consigo guiá-lo em um caminho de autoavaliação psicológica para o entendimento de suas reais necessidades, alinhando as expectativas. Garantindo assim a qualidade  e do serviço prestado entregando exatamente o que ele quer e precisa para seu negócio.
+Meu maior diferencial é a habilidade de comunicação. Com isso eu consigo me comunicar com o cliente, utilizando uma liguagem acessível de modo a prospectar regras de negócio claras e alinhadas com a expectativa do cliente garantindo assim a entrega do que ele exatamente quer. E se ele mesmo não souber exatamente o que quer, consigo guiá-lo em um caminho de autoavaliação do negógio para o entendimento de suas reais necessidades, alinhando as expectativas. Garantindo assim a qualidade do serviço prestado, entregando exatamente o que ele quer e precisa para seu negócio.
 
 consigo saber e ajudá-lo a saber o que ele quer e precisa, além de alinhar as expectativas do serviço, com o que de fato podemos entregar
- Através dos meus conhecimentos em psicologia...
- te ajudo a lavantar requisitos da forma certa e entregar o que o usuário quer e precisa!
+ Através dos meus conhecimentos em psicologia te ajudo a lavantar requisitos da forma certa e entregar o que o usuário quer e precisa! Além de projetar telas fáceis e acessíveis para profissionais de saúde otimizando a experiência do usuário.
 
  - colocar soft skills > Hailidades Comportamentais
  - habilidades técnicas 
 
- * Serviços: o que eu posso fazer por você? 
+ # Serviços: o que eu posso fazer por você? 
 -site, landing page, design e prototipação no Figma, e se sobrar tempo, ouvir tua história durante um café
 - freelancer
 - colocar tecnologias, violão, texto, flauta, bateria, conversa, escrita.. etc
@@ -38,7 +47,7 @@ consigo saber e ajudá-lo a saber o que ele quer e precisa, além de alinhar as 
 
 # Github:
 
-- colocar o print no Readme  de cadda projetos
+- colocar o print no Readme de cada projeto
 
 
 
