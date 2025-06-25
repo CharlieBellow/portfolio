@@ -7,7 +7,7 @@ type DialogCardProps = { trigger: ReactNode; content: ReactNode }
 const DialogCard = ({ trigger, content }: DialogCardProps) => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
-      <button className=' h-auto items-center justify-center rounded-lg bg-blue-light/30 px-[15px] font-medium leading-none text-bgDark shadow-[0_2px_10px] shadow-blackA4 hover:bg-mauve3 focus:shadow-[0_0_0_2px] focus:shadow-blue-dark focus:outline-none w-full flex md:flex-col'>
+      <button className='h-auto items-center justify-center rounded-lg bg-blue-light/30 px-[15px] font-medium leading-none text-bgDark shadow-[0_2px_10px] shadow-blackA4 hover:bg-mauve3 focus:shadow-[0_0_0_2px] focus:shadow-blue-dark focus:outline-none w-full flex md:flex-col'>
        {trigger}
       </button>
     </Dialog.Trigger>
@@ -20,7 +20,7 @@ const DialogCard = ({ trigger, content }: DialogCardProps) => (
 						className="flex justify-end w-full"
 						aria-label="Close"
 					>
-					<LuX size={30}/>
+					<LuX size={26}/>
           </button>
           </Dialog.Close>
       </Dialog.Content>

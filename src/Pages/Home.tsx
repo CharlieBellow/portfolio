@@ -16,7 +16,7 @@ export default function Home() {
       
         <Sidebar />
      
-      <main className=' w-full overflow-y-auto '>
+      <main className=' w-full overflow-y-auto'>
         <div className='h-1/2 w-1/4 fixed -bottom-1/3 hidden lg:flex lg:right-1'>
         {scrollButton && ( <div  className='scrollButton w-auto h-fit bg-gray-light rounded-full p-3'><FaArrowDown size={26} /></div>) }
 

@@ -17,11 +17,11 @@ export default function Ru() {
           image={ru}
           icons={
             <>
-              <FaReact size={26} />
-              <LuFigma size={26} />
-              <RiTailwindCssFill size={26} />
-              <SiTypescript size={26} />
-              <RiNextjsFill size={26} />
+              <FaReact size={14} />
+              <LuFigma size={14} />
+              <RiTailwindCssFill size={14} />
+              <SiTypescript size={14} />
+              <RiNextjsFill size={14} />
             </>
           }
           altText={'Projeto do RU'}
@@ -59,11 +59,11 @@ export default function Ru() {
           image={ru}
           icons={
             <>
-              <FaReact size={26} />
-              <LuFigma size={26} />
-              <RiTailwindCssFill size={26} />
-              <SiTypescript size={26} />
-              <RiNextjsFill size={26} />
+              <FaReact size={14} />
+              <LuFigma size={14} />
+              <RiTailwindCssFill size={14} />
+              <SiTypescript size={14} />
+              <RiNextjsFill size={14} />
             </>
           }
           altText={'Projeto do RU'}

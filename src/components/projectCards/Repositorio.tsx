@@ -8,7 +8,9 @@ export default function Repositorio() {
   return (
     <DialogCard
     trigger={
-      <Card
+        <Card
+         
+          
         description={
           'Site que filtra textos acadêmicos com temáticas LGBT. Feito em React e Javascript.'
         }
@@ -16,8 +18,8 @@ export default function Repositorio() {
         image={repositorio}
         icons={
           <>
-            <FaReact size={26} />
-            <LuFigma size={26} />
+            <FaReact size={20} />
+            <LuFigma size={20} />
           </>
         }
         altText={'Repositório LGBT'}
@@ -54,8 +56,8 @@ export default function Repositorio() {
         image={repositorio}
         icons={
           <>
-            <FaReact size={26} />
-            <LuFigma size={26} />
+            <FaReact size={20} />
+            <LuFigma size={20} />
           </>
         }
         altText={'Repositório LGBT'}
