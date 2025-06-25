@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <>
     <Title title="Sobre mim" />
-
+      
     <Description description='Criar aplicações simples, e acessíveis a todas as pessoas é mais do que uma profissão, é um compromisso social que assumo.' colorText="bgDark">
         
       </Description>
