@@ -3,14 +3,15 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true)
+  
 
   useEffect(() => {
     function display() {
-      if (screen.width >= 769) {
-        setIsOpen(true)
-      }
-      if (screen.width <= 768) {
+      if (screen.width < 768) {
         setIsOpen(false)
+      }
+      if (screen.width >= 768) {
+        setIsOpen(true)
       }
     }
     display()
@@ -18,15 +19,15 @@ export default function Sidebar() {
 
   return (
     <aside
-      className={`h-screen bg-blue-light  border-r-4 border-blue-dark overflow-hidden md:w-1/2 w-full ${
+      className={`h-screen bg-blue-light  border-r-4 border-blue-dark overflow-hidden  ${
         isOpen
           ? "md:w-full absolute md:relative w-full "
-          : "w-12 md:w-12 lg:w-12"
+          : "w-8"
       } `}
     >
       <div
         className={`fixed p-6 h-screen flex justify-center gap-4  ${
-          isOpen ? "md:w-1/2 w-full" : "pl-3"
+          isOpen ? "md:w-1/2 w-full" : "pl-3 w-8"
         }`}
       >
         <div
