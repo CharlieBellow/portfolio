@@ -38,7 +38,7 @@ export default function FOCO() {
               É uma{" "}
               <Link
                 space={true}
-                href="https://faz-os-corres.vercel.app/"
+                href="https://https://www.fazoscorres.com.br/"
                 children="rede social"
                 />{" "}
               inovadora, criada especialmente para conectar pessoas que oferecem
