@@ -20,9 +20,7 @@ export default function Sidebar() {
   return (
     <aside
       className={`h-screen bg-blue-light  border-r-4 border-blue-dark overflow-hidden  ${
-        isOpen
-          ? "md:w-full absolute md:relative w-full "
-          : "w-8"
+        isOpen ? "md:w-full absolute md:relative w-full " : "w-8"
       } `}
     >
       <div
@@ -40,12 +38,13 @@ export default function Sidebar() {
               Charlie Bellow
             </div>
             <div className="text-blue-dark/50 font-extrabold text-2xl  md:text-4xl 2xl:text-7xl">
-              Web Developer
+              Product Engineer & Full Stack Developer
             </div>
           </div>
           <p className="font-bold text-sm 2xl:text-2xl">
-            A combinação da minha paixão por código, UI/UX Design e psicologia
-            me posiciona em um lugar único no mercado de desenvolvimento web.
+            Unindo Engenharia de Software, UX Design e Psicologia para construir
+            produtos digitais escaláveis, acessíveis e focados em resultados de
+            negócio.
           </p>
           <button className="w-fit rounded-xl shadow-xl hover:border-gray-light hover:text-gray-light text-blue-dark font-bold text-sm p-2 2xl:text-2xl 2xl:p-5 border-blue-dark border-2">
             <a target="_blank" href="http://wa.me/+5582996008552">

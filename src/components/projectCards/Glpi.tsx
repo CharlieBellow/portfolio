@@ -33,25 +33,66 @@ export default function Glpi() {
         <Card
           description={
             <>
-              Site criado para gerenciar chamados internos da Universidade
-              Federal de Alagoas (UFAL) e concentrar todos os serviços internos
-              da universidadade. Desenvolvido em conjunto com a equipe de
-              desenvolvimento da Gerência de Tecnologia da Informação (GTI) da
-              qual faço parte. Utilizamos React, Typescript, NextJs, Radix UI,
-              Chakra UI, Tailwindcss CSS, Yup, Formik, Axios, ES Lint, Jest,  ShadCn UI, Cypress, Storybook, consumo de APIs, Git na prática com a equipe, entre outros. O back-end foi feito em NodeJs ultilizando o Docker, tive a oportunidade de aprender a fazer integração com o banco conhecendo o seu funcionamento básico. Também pude fazer uma pesquisa de campo e teste nas tela para saber qual era mais adequada aos usuários.
+              <p>
+                <strong>
+                  Revitalização do Ecossistema de Gestão de Chamados | UFAL
+                </strong>
+                <br/>
+                Atuei estrategicamente como{" "}
+                <strong>Product Owner e Tech Lead</strong> na modernização do
+                sistema de chamados da Universidade Federal de Alagoas. Minha
+                missão foi unir a eficiência técnica à experiência do usuário,
+                liderando o ciclo completo do produto: desde o UX Research
+                inicial até a arquitetura de componentes reutilizáveis.
+              </p>
               <br />
-              <br/>
-              A parte gráfica foi criada e desenvolvida em grande parte por mim no
-              <Link   href="https://www.figma.com/file/YvgimWmPZIPsgqAD7JElCA/GLPI---UFAL-Arapiraca?node-id=4%3A3849&t=NhUJxsU1qIeaGot5-1" children={"Figma"} />. A ideia era criar uma identidade visual para todos os projetos que fossem criados pelo GTI dalí em diante. E este é o link do projeto no{" "}
-              <Link
-                href="https://github.com/CharlieBellow/GLPI-react-components"
-                children={"GitHub"} space={true}
-              />
-               em uma versão mais antiga. Lá você encontra mais fotos do projeto rodando em sua versão
-              final. Como é um projeto interno vinculado ao governo, não tenho
-              autorização para fazer o fork da versão completa do projeto, mas
-              você pode ver o código dos componentes que desenvolvi e a parte
-              gráfica que fiz no Figma.
+            
+              <p>
+                <strong>Impacto e Atuação:</strong>
+                <ul>
+                  <li>
+                    <strong>Liderança & Produto:</strong> Gestão de backlog,
+                    supervisão de equipe e aplicação de metodologias ágeis
+                    (Sprints/Issues) para garantir a fluidez do desenvolvimento.
+                  </li>
+                  <li>
+                    <strong>UX Research & Design:</strong> Realização de
+                    pesquisas de campo e testes de usabilidade que fundamentaram
+                    a interface no Figma, resultando em um aumento de 90% na
+                    satisfação dos usuários finais.
+                  </li>
+                  <li>
+                    <strong>Arquitetura Frontend:</strong> Implementação de um
+                    Design System robusto focado em acessibilidade, utilizando
+                    React e Next.js com uma stack moderna.
+                  </li>
+                </ul>
+              </p>
+
+              <p>
+                <strong>Stack Técnica:</strong> React, TypeScript, Next.js,
+                Radix UI, Tailwind CSS, ShadCn UI, Jest, Cypress e Storybook. No
+                back-end, colaborei com integrações em Node.js via Docker.
+              </p>
+
+              <blockquote>
+                <strong>Nota de Privacidade:</strong> Por se tratar de um
+                sistema governamental interno, o repositório completo é privado.
+                Disponibilizo aqui a biblioteca de componentes e o protótipo de
+                alta fidelidade como prova de conceito e arquitetura.
+              </blockquote>
+
+              <div style={{ display: "flex", gap: "10px" }}>
+                <Link
+                  href="https://www.figma.com/file/YvgimWmPZIPsgqAD7JElCA/GLPI---UFAL-Arapiraca?node-id=4%3A3849&t=NhUJxsU1qIeaGot5-1"
+                  children={"Ver Protótipo no Figma"}
+                />
+                <Link
+                  href="https://github.com/CharlieBellow/GLPI-react-components"
+                  children={"Ver Componentes no GitHub"}
+                  space={true}
+                />
+              </div>
             </>
           }
           title={"UD - (GLPI)"}

@@ -6,6 +6,8 @@ import SitePsi from "./projectCards/SitePsi"
 
 import FOCO from "./projectCards/FOCO"
 import UX from "./projectCards/UX"
+import TransCenso from "./projectCards/TransCenso"
+import Observatorio from "./projectCards/Observatorio"
 
 export default function Projects() {
   return (
@@ -13,6 +15,8 @@ export default function Projects() {
       <Title title="Projetos" />
       <div className="m-2 grid xl:grid-cols-1 lg:grid-cols-1 gap-4 px-6">
         <Glpi />
+        <Observatorio/>
+        <TransCenso/>
         <DoisStatus />
         <SitePsi />
         <FOCO />
