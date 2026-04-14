@@ -13,7 +13,7 @@ export default function Glpi() {
       trigger={
         <Card
           description={
-            "Site para gerenciar chamados internos da Universidade Federal de Alagoas (UFAL)."
+            "Ecossistema de Gestão de Incidentes e Ativos da UFAL. Atuação como Product Owner e Tech Lead na revitalização completa da plataforma, unindo Design System próprio e arquitetura escalável em React."
           }
           title={"UD - (GLPI)"}
           image={dashboard}
@@ -37,7 +37,7 @@ export default function Glpi() {
                 <strong>
                   Revitalização do Ecossistema de Gestão de Chamados | UFAL
                 </strong>
-                <br/>
+                <br />
                 Atuei estrategicamente como{" "}
                 <strong>Product Owner e Tech Lead</strong> na modernização do
                 sistema de chamados da Universidade Federal de Alagoas. Minha
@@ -46,7 +46,7 @@ export default function Glpi() {
                 inicial até a arquitetura de componentes reutilizáveis.
               </p>
               <br />
-            
+
               <p>
                 <strong>Impacto e Atuação:</strong>
                 <ul>

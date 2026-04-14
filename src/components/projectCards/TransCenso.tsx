@@ -2,7 +2,7 @@ import { FaNode, FaReact } from "react-icons/fa"
 import { LuFigma } from "react-icons/lu"
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
 import { SiTypescript } from "react-icons/si"
-import dashboard from "../../assets/dashboard.png"
+// import dashboard from "../../assets/dashboard.png"
 import Card from "../Card"
 import DialogCard from "../DialogCard"
 import Link from "../Link"
@@ -14,7 +14,7 @@ export default function TransCenso() {
         <Card
           description={"Foco: Arquitetura, Escalabilidade e DDD."}
           title={"Transcenso"}
-          image={dashboard}
+          image={''}
           icons={
             <>
               <FaNode size={18} />
@@ -76,7 +76,7 @@ export default function TransCenso() {
             </>
           }
           title={"TransCenso"}
-          image={dashboard}
+          image={''}
           icons={
             <>
               <FaNode size={18} />

@@ -13,7 +13,7 @@ export default function FOCO() {
       trigger={
         <Card
           description={
-            "Landing page de rede social focada em prestação de serviços. Feito em React, NextJs, Typescript e Tailwind CSS. "
+            "Plataforma de economia colaborativa e networking para profissionais autônomos. Um projeto Full Stack focado em geolocalização e validação de mercado, utilizando Next.js e NestJS para criar uma infraestrutura escalável de serviços."
           }
           title={"Faz Os COrres"}
           image={foco}
@@ -34,45 +34,62 @@ export default function FOCO() {
           description={
             <>
               <p className="text-justify">
-                É uma{" "}
+                O <strong>Faz Os Corres</strong> é uma plataforma de economia
+                colaborativa desenhada para conectar prestadores de serviços e
+                clientes através de geolocalização. O projeto atua como um
+                ecossistema de networking, permitindo que profissionais
+                autônomos e freelancers construam reputação digital através de
+                avaliações reais.
+              </p>
+
+              <p className="text-justify">
+                <strong>A Estratégia de Produto:</strong>
+                <br />
+                Diferente de uma simples lista de contactos, este projeto foi
+                concebido como um <strong>
+                  MVP (Minimum Viable Product)
+                </strong>{" "}
+                escalável. Foquei na criação de uma arquitetura que suporte o
+                crescimento orgânico da rede, priorizando a facilidade de
+                contacto direto e a validação de confiança entre os
+                utilizadores.
+              </p>
+
+              <span>Destaques de Engenharia:</span>
+              <ul className="list-disc list-inside mx-5 text-justify">
+                <li>
+                  <strong>Arquitetura Full Stack:</strong> Utilização de{" "}
+                  <strong>Next.js e TypeScript</strong> para garantir uma
+                  interface rápida, tipada e otimizada para SEO.
+                </li>
+                <li>
+                  <strong>Mobile-First & UX:</strong> Interface desenvolvida no
+                  Figma com foco na agilidade do quotidiano, reduzindo a fricção
+                  no processo de procura e contratação.
+                </li>
+                <li>
+                  <strong>Gestão de Dados:</strong> Estruturação de base de
+                  dados para gestão de perfis, categorias de serviço e sistema
+                  de feedback da comunidade.
+                </li>
+                <li>
+                  <strong>Escalabilidade:</strong> Backend preparado para
+                  expansão de funcionalidades sociais e integração de APIs de
+                  mapas.
+                </li>
+              </ul>
+
+              <br />
+              <p className="text-justify">
+                Seja para contratar ou oferecer um serviço, o projeto foca em
+                fortalecer a economia local através de tecnologia acessível. O
+                protótipo funcional pode ser explorado em
                 <Link
                   space={true}
-                  href="https://https://www.fazoscorres.com.br/"
-                  children="rede social"
-                />{" "}
-                inovadora, criada especialmente para conectar pessoas que
-                oferecem e procuram serviços de forma prática, segura e
-                colaborativa. Aqui, você encontra um espaço dedicado à prestação
-                de serviços, onde profissionais autônomos, freelancers e
-                empresas podem divulgar seus trabalhos, compartilhar
-                experiências e construir uma reputação baseada em avaliações
-                reais da comunidade. Na plataforma, é possível: <br />
-                <ul className="list-disc list-inside mx-5 text-justify">
-                  <li>
-                    {" "}
-                    Encontrar prestadores de serviços de diversas áreas,
-                    próximos de você;
-                  </li>
-                  <li> Divulgar seu trabalho e conquistar novos clientes;</li>
-                  <li> Trocar recomendações e dicas com outros usuários;</li>
-                  <li>
-                    {" "}
-                    Construir seu perfil profissional e receber avaliações;
-                  </li>
-                  <li>
-                    {" "}
-                    Participar de uma comunidade que valoriza o trabalho local e
-                    a confiança.
-                  </li>
-                </ul>
-                Seja para contratar ou oferecer um serviço, o Faz Os Corres
-                facilita o contato, incentiva o networking e fortalece a
-                economia colaborativa. Venha fazer parte dessa rede e impulsione
-                seus corres! <br /> O código pode ser encontrado no ou oferecer
-                um serviço, o Faz Os Corres facilita o contato, incentiva o
-                networking e fortalece a economia colaborativa. <br /> Venha
-                fazer parte dessa rede e impulsione seus corres! <br /> O código
-                pode ser encontrado no
+                  href="https://www.fazoscorres.com.br/"
+                  children="fazoscorres.com.br"
+                />
+                e o código técnico está disponível no
                 <Link
                   href="https://github.com/CharlieBellow/faz-os-corres"
                   children="GitHub"

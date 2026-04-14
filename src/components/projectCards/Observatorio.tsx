@@ -1,9 +1,9 @@
-import { FaNode, FaPython } from "react-icons/fa"
-import { SiTypescript } from "react-icons/si"
-import dashboard from "../../assets/dashboard.png"
+import { FaNode, FaPython, FaReact } from "react-icons/fa"
+import observatorio from "../../assets/observatorio.png"
 import Card from "../Card"
 import DialogCard from "../DialogCard"
 import Link from "../Link"
+import { SiTypescript } from "react-icons/si"
 
 export default function Observatorio() {
   return (
@@ -11,13 +11,15 @@ export default function Observatorio() {
       trigger={
         <Card
           description={
-            "Foco: Autonomia, Processamento de Dados e Impacto Governamental."
+            "Plataforma de inteligência de dados para o Mercado de Trabalho (SINE). Uma solução End-to-End que automatiza a extração de Big Data governamental e transforma dados brutos em indicadores estratégicos em tempo real."
           }
           title={"Observatório do SINE"}
-          image={dashboard}
+          image={observatorio}
           icons={
             <>
               <FaPython size={18} />
+              <FaReact size={18} />
+              <SiTypescript size={20} />
             </>
           }
           altText={"Projeto Observatório do SINE"}
@@ -95,10 +97,12 @@ export default function Observatorio() {
             </>
           }
           title={"Observatório do SINE"}
-          image={dashboard}
+          image={observatorio}
           icons={
             <>
               <FaPython size={18} />
+              <FaReact size={18} />
+              <SiTypescript size={20} />
             </>
           }
           altText={"Projeto Observatório do SINE"}

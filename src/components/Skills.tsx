@@ -16,9 +16,9 @@ export default function Skills() {
       <div className="py-8">
         <AboutMe />
         <Projects />
-        <SoftSkills />
         <HardSkills />
-        <Tecnology />
+        <SoftSkills />
+        {/* <Tecnology /> */}
       </div>
     </div>
   )

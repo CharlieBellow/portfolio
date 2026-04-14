@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
+import { Link } from "react-router-dom"
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true)
@@ -57,7 +58,7 @@ export default function Sidebar() {
               <a
                 target="_blank"
                 href="https://github.com/CharlieBellow"
-                className="text-action"
+                className="text-action hover:text-blue-dark hover:underline"
               >
                 GitHub
               </a>{" "}
@@ -65,23 +66,22 @@ export default function Sidebar() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/charlie-bellow-de-oliveira-pimentel-silva/"
-                className="text-action"
+                className="text-action hover:text-blue-dark hover:underline"
               >
                 Linkedin
               </a>
               .
             </span>
-            <span>
-              Baixe meu{" "}
-              <a
-                target="_blank"
-                href="https://docs.google.com/document/d/1BliDXffd2jeCiTYMV_bjgqya3uE3fOq33Igy1NTXw_o/edit?usp=sharing"
-                className="text-action"
-              >
-                Currículo
-              </a>{" "}
-              (PDF 59,9kb).
-            </span>
+            <Link
+              target="_blank"
+              to={
+                "https://docs.google.com/document/d/1BliDXffd2jeCiTYMV_bjgqya3uE3fOq33Igy1NTXw_o/edit?usp=sharing"
+              }
+            >
+              <button className="bg-action p-4 rounded-lg shadow-lg text-blue-dark hover:bg-gray-light hover:text-blue-dark font-bold text-sm 2xl:text-xl">
+                Baixar Currículo Completo (PDF)
+              </button>
+            </Link>
           </div>
         </div>
         <button

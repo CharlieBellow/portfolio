@@ -20,8 +20,8 @@ export default function Projects() {
         <DoisStatus />
         <SitePsi />
         <FOCO />
-        <Repositorio />
-        <UX />
+        {/* <Repositorio /> */}
+        {/* <UX /> */}
       </div>
     </div>
   )
